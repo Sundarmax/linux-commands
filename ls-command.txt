@@ -1,0 +1,10 @@
+List Directory Contents | ls
+List All Directory Contents | ls -a (including the hidden files)
+List Directory Contents of Previous Directory | ls ..
+List Directory Contents With long Listing Format | ls -l
+List Directory Contents With Inode Information | ls -il
+List Directory Contents In Human Readable Format (size in KB,MB,GB) | ls -hl
+List Directory Contents of Specific Directory | ls [path-to-directory]
+List Content of Subdirectories Recursively | ls -R
+ls Sort By Name In Ascending Order | ls
+ls Sort By Name in Descending Order | ls -lr
