@@ -7,4 +7,6 @@ List Directory Contents In Human Readable Format (size in KB,MB,GB) | ls -hl
 List Directory Contents of Specific Directory | ls [path-to-directory]
 List Content of Subdirectories Recursively | ls -R
 ls Sort By Name In Ascending Order | ls
-ls Sort By Name in Descending Order | ls -lr
+ls Sort By Name in Descending/Reverse Order | ls -lr
+ls Sory by time and date |  ls -lt
+ls Sory by time and date in reverse order |  ls -lrt
