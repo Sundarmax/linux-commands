@@ -1,0 +1,9 @@
+ps: check process running  | ps 
+ps: check process running (detailed Information)  | ps aux
+    a: show all processes including those owned by other user
+    u: show username of process owner instead of user ID
+    x: show information about the process including memory, CPU, and command argument.
+kill the process you can use | kill <pid> or kill -9 <pid> 
+Show information about processes owned by a specific user:ps U <username>
+using grep to filter -> ps aux | grep command
+Show processes in a tree-like format based on parent-child relationships.Ex ps aux --forest
