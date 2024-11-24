@@ -1,0 +1,8 @@
+tail or head: File Viewing and Manipulation Commands¹
+    -f : Follow mode, keeps the command running and displays new lines as they're appended to the file. 
+    -n :Specifies the number of lines to display from the end of the file.
+tail -n 2 ls-command.txt : display the last 2 lines and exit 
+tail -f -n 2 myfile.log: : display the last 2 lines and continue display line if added
+head -n 2 ls-command.txt
+This Command is to dump one file to another file : cat test.txt > test2.txt
+Use >> append, when you want to add content to the end of an existing file :cat test4.txt >> test2.txt
