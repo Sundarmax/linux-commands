@@ -1,0 +1,2 @@
+Syntax: systemctl <start|restart|status|stop|> <services name> Ex: sudo systemctl start nginx
+This command will filter type as service, and the state as running. systemctl --type=service --state=running.
