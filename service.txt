@@ -1,2 +1,5 @@
 Syntax: systemctl <start|restart|status|stop|> <services name> Ex: sudo systemctl start nginx
 This command will filter type as service, and the state as running. systemctl --type=service --state=running.
+list-unit-files: state status of services automatically activate or not during boot | systemctl enable/disable apache2
+list-units: check the service's health status such as start, stop, or fail. So this means list-unit-files must be enabled first to start the services. | systemctl stop apache2
+Check the log of services: can display logs related to a service usingjournalctl -u service_name
