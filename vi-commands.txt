@@ -1,0 +1,7 @@
+vi : edit file and its flag options : :wq! save and quit
+    ctrl+v: visual mode select cursor to select which string to copy or cut
+    y: copy
+    d: cut
+    p: paste
+    u: undo
+/: Finding string in a file. When you edit a file you will find a specific string. we can use the n to find the next finding string.

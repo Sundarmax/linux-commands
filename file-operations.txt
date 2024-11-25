@@ -1,0 +1,11 @@
+mv :move file or rename file
+    rename file: mv test test.txt
+    move directory : mv test /home/sundar/
+    mv *.txt /newfolder
+rm: remove or delete file and directory
+    rm -rf filename: remove folder or directory. r for recusrsive and f for force.
+cp: copy file
+    copy file: cp file file.bk
+copy all files into the directory: cp *.txt dest
+Copy directory into different directory:
+    method2: cp -R sourcedir dest_dir
