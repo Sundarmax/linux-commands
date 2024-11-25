@@ -6,3 +6,7 @@ tail -f -n 2 myfile.log: : display the last 2 lines and continue display line if
 head -n 2 ls-command.txt
 This Command is to dump one file to another file : cat test.txt > test2.txt
 Use >> append, when you want to add content to the end of an existing file :cat test4.txt >> test2.txt
+soft link:ln -s <sourceFile> <link_path> | unlink /home/link
+hard link:ln <sourceFile> <link_path > 
+    Hard Link means the file points to the same inode as the original file /directory .
+    Soft Link points to a different inode original file /directory. The file that just stores the path of the original file and not its contents, so when you move or remove the original file the soft link will not work
