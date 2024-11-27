@@ -1,0 +1,6 @@
+check kernel and version | uname -a
+list all the packages that have been installed in the system | dpkg -l
+shutdown: shutdown -h nowor init 0
+reboot: shutdown -r now or reboot
+you can check disk usage | df -h
+you can check your file size| du -sh filename
