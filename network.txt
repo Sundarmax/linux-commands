@@ -1,0 +1,7 @@
+check all your IP addresses |  ifconfig
+This command is useful to debug whether your network state is linked or not, speed, etc | ethtool <interface name>
+show route table: ip route
+Ping is a command that allows you to check between connections of devices | 
+    ping -c <count> <destination>
+    ping -i <interval> <destination> | i interval option: specify the interval between sending ICMP packets
+    
