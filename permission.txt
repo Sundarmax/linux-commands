@@ -1,0 +1,10 @@
+Change the Owner of a File | chown username filename
+Change groupname | chgrp groupname <filename>
+chmod +rwx <file or folder> : add permissions to all ownership
+chmod -rwx <file or folder> :remove permissions to ownership
+chmod +x <file or folder> :add executable permissions to ownership
+chmod -wx <file or folder> :write and execute permission to ownership
+chmod g+w <file or folder>:group add write permissions
+chmod g-wx <file or folder>:group remove write and execute permissions
+chmod o+w <file or folder>: other user write permission
+chmod o-rwx <file or folder>:other user remove permissions
