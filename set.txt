@@ -1,0 +1,21 @@
+syntax: sed [-OPTION] [ADD1][,ADD2] [COMMAND] [/PATTERN][/REPLACEMENT]/[FLAG] [FILE]
+
+option:
+#Ex1 default without g flag
+# Replace Upper Case W to lower case
+echo 'What is your name' |sed 's/W/w/'
+#output:
+# what is your name
+#Ex2 set g will replace all match 
+echo 'aaadddaa aaadddaa' | sed 's/d/b/g'
+# aaabbbaa aaabbbaa
+#Ex3 replace ONLY N position or address
+echo 'aaadddaa aaadddaa' | sed 's/d/b/5'
+#output: 
+#aaadddaa aaadbdaa
+#Ex4 replace start from N position
+echo 'aaadddaa aaadddaa' | sed 's/d/b/5g'
+#output:
+#aaadddaa aaadbbaa
+echo 'my name is Chenchih' | sed 's/chenchih/Chen-Chih/I'
+#my name is Chen-Chih

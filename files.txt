@@ -11,4 +11,3 @@ hard link:ln <sourceFile> <link_path >
     Hard Link means the file points to the same inode as the original file /directory .
     Soft Link points to a different inode original file /directory. The file that just stores the path of the original file and not its contents, so when you move or remove the original file the soft link will not work
 create an empty file : touch
- 
